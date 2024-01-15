@@ -1,0 +1,15 @@
+{
+  "name": "picky-planner-packages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "hmshimanyula1995/https://github.com/hmshimanyula1995/picky-planner-packages.git"
+  },
+  "author": "infinityedge",
+  "license": "ISC"
+}
