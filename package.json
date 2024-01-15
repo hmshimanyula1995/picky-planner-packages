@@ -10,9 +10,6 @@
     "type": "git",
     "url": "hmshimanyula1995/https://github.com/hmshimanyula1995/picky-planner-packages.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "author": "infinityedge",
   "license": "ISC"
 }
