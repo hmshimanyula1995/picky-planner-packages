@@ -1,6 +1,6 @@
 {
   "name": "picky-planner-packages",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "hmshimanyula1995/https://github.com/hmshimanyula1995/picky-planner-packages.git"
+  },
+  "publishConfig": {
+    "@hmshimanyula:registry": "https://npm.pkg.github.com"
   },
   "author": "infinityedge",
   "license": "ISC"
