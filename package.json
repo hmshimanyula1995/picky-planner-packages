@@ -1,10 +1,10 @@
 {
   "name": "picky-planner-packages",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "0"
+    "test": "echo \"No tests yet\""
   },
   "repository": {
     "type": "git",
