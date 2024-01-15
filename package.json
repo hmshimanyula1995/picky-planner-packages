@@ -1,11 +1,12 @@
 {
   "name": "@hmshimanyula1995/picky-planner-packages",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"No tests yet\""
   },
+  "types": "types/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/hmshimanyula1995/picky-planner-packages.git"
