@@ -26,7 +26,7 @@ export const passwordValidation = {
     )
     .required('Password is required'),
   confirmPassword: Yup.string()
-    .oneOf([Yup.ref('password'), null], 'Passwords must match')
+    .oneOf([Yup.ref('password'), null as any], 'Passwords must match')
     .required('Password match is required'),
 };
 
@@ -42,8 +42,9 @@ export const passwordResetValidation = {
     )
     .required('Password is required'),
   confirmPassword: Yup.string()
-    .oneOf([Yup.ref('password'), null], 'Passwords must match')
+    .oneOf([Yup.ref('password'), null as any], 'Passwords must match')
     .required('Password match is required'),
+
   currentPassword: Yup.string().required('Current password is required'),
 };
 

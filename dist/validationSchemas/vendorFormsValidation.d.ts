@@ -1,0 +1,32 @@
+import * as Yup from 'yup';
+export declare const DetailsInfoValidationSchema: Yup.ObjectSchema<{
+    website: string;
+    company: string;
+    facebook: string | undefined;
+    twitter: string | undefined;
+    instagram: string | undefined;
+    serviceTowns: string[] | undefined;
+    minGuests: number | undefined;
+    maxGuests: number | undefined;
+    tagline: string;
+    description: string;
+    businessTown: string;
+    registrationType: string;
+    email: string;
+    phone: string;
+}, Yup.AnyObject, {
+    website: undefined;
+    company: undefined;
+    facebook: undefined;
+    twitter: undefined;
+    instagram: undefined;
+    serviceTowns: "";
+    minGuests: undefined;
+    maxGuests: undefined;
+    tagline: undefined;
+    description: undefined;
+    businessTown: undefined;
+    registrationType: undefined;
+    email: undefined;
+    phone: undefined;
+}, "">;
